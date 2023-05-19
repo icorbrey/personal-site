@@ -1,4 +1,7 @@
 {
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": false
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"explorer.fileNesting.patterns": {
+		"*.tsx": "${capture}.css, ${capture}.*.tsx, ${capture}.stories.ts"
+	}
 }
