@@ -2,7 +2,8 @@
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"explorer.fileNesting.patterns": {
-		"*.tsx": "${capture}.css, ${capture}.*.tsx, ${capture}.*.ts, ${capture}.stories.ts"
+		"*.tsx": "${capture}.css, ${capture}.module.css, ${capture}.*.tsx, ${capture}.*.ts, ${capture}.stories.ts",
+		"*.ts": "${capture}.css, ${capture}.module.css, ${capture}.test.ts"
 	},
 	"explorer.fileNesting.enabled": true
 }

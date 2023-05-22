@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from 'main.store';
 import { routes } from 'routes';
 import React from 'react';
+import 'main.css';
 
 const router = createBrowserRouter(routes);
 
