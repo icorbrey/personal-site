@@ -1,0 +1,23 @@
+.layout {
+	--layout-gradient-top: rgba(245, 245, 245, 1);
+	--layout-gradient-bottom: rgba(181, 216, 214, 1);
+	--layout-box-shadow-color: rgb(180, 202, 201);
+
+	grid-template-columns: auto 1fr;
+	grid-template-rows: 1fr;
+	display: grid;
+	height: 100%;
+
+	background: rgb(155, 185, 183);
+	background: linear-gradient(330deg, var(--layout-gradient-bottom) 0%, var(--layout-gradient-top) 100%);
+}
+
+.content {
+	border-top-left-radius: 0.75rem;
+	border-bottom-left-radius: 0.75rem;
+	background: rgba(255, 255, 255, 0.825);
+
+	-webkit-box-shadow: 0 0 0.5rem 0 var(--layout-box-shadow-color);
+	-moz-box-shadow: 0 0 0.5rem 0 var(--layout-box-shadow-color);
+	box-shadow: 0 0 0.5rem 0 var(--layout-box-shadow-color);
+}
